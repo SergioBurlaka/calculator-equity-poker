@@ -1,11 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html >
+<head lang="en">
     <meta charset="UTF-8">
-    <title>Poker calculator</title>
-</head>
-<body>
-hello i am a poker calculator!!!
+    <title>Poker Calculator</title>
+    <!--<link rel="stylesheet" href="css/main.css">-->
+    <!--<link rel="stylesheet" href="bundle.css">-->
 
+</head>
+<body ng-app="app">
+
+<div ng-controller="showCards as showCards">
+
+    <div class="background"></div>
+
+    <h1 class="pokerCalculatorHeader">Poker Texas Holdem Calculator </h1>
+
+    <div class="mainWrap">
+        <!--<div>-->
+            <!--<h1> pokerDeck {{showCards.pokerDeck[0]}}</h1>-->
+            <!--<h1> pokerDeck {{showCards.pokerDeck[0].suit}}</h1>-->
+            <!--<h1> flop {{showCards.flop}}</h1>-->
+            <!--<h1> coordinate {{showCards.coordinate}}</h1>-->
+            <!--<h1> Players {{showCards.players[2]}}</h1>-->
+
+        <!--</div>-->
+
+        <div class="pokerField">
+
+            <div class="wrapGameField">
+
+                <div class="keyboard">
+                    <div class="boxInline">
+                        <div class="suit">
+                            <div class="cardPoker" ng-repeat="x in showCards.pokerDeck.slice(0,13) track by $index ">
+                                <poker-card-small ng-click=" showCards.checkCardOnPokerKeyboard($index)"
+                                                  class="cardSmall" card="x"></poker-card-small>
+                            </div>
+                        </div>
+                        <div class="suit">
+                            <div class="cardPoker" ng-repeat="x in showCards.pokerDeck.slice(13,26) track by $index ">
+                                <poker-card-small ng-click="showCards.checkCardOnPokerKeyboard(13+$index)"
+                                                  class="cardSmall"
+                                                  card="x"></poker-card-small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxInline">
+                        <div class="suit">
+                            <div class="cardPoker" ng-repeat="x in showCards.pokerDeck.slice(26,39) track by $index ">
+                                <poker-card-small ng-click="showCards.checkCardOnPokerKeyboard(26+$index)"
+                                                  class="cardSmall"
+                                                  card="x"></poker-card-small>
+                            </div>
+                        </div>
+                        <div class="suit">
+                            <div class="cardPoker" ng-repeat="x in showCards.pokerDeck.slice(39,52)  track by $index">
+                                <poker-card-small ng-click="showCards.checkCardOnPokerKeyboard(39+$index)"
+                                                  class="cardSmall"
+                                                  card="x"></poker-card-small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pokerTable">
+                    <div class="pokerBoard">
+
+                        <div class="flop">
+                            <div class="cardPoker" ng-repeat="x in showCards.flop  track by $index">
+                                <poker-card-major ng-click="showCards.checkCardOnTable($index,'flop')"
+                                                  tabindex="0" class="cardOnTable" card="x"></poker-card-major>
+                            </div>
+                        </div>
+
+                        <div class="turn">
+                            <div class="cardPoker" ng-repeat="x in showCards.turn track by $index">
+                                <poker-card-major ng-click="showCards.checkCardOnTable($index,'turn')"
+                                                  tabindex="0" class="cardOnTable" card="x"></poker-card-major>
+                            </div>
+                        </div>
+
+                        <div class="river">
+                            <div class="cardPoker" ng-repeat="x in showCards.river track by $index">
+                                <poker-card-major ng-click="showCards.checkCardOnTable($index,'river')"
+                                                  tabindex="0" class="cardOnTable" card="x"></poker-card-major>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="playersArea">
+                        <div class="players">
+
+                            <div class="player" ng-repeat="x in showCards.players.slice(0,5) ">
+                                <div class="cardPlayer">
+                                    <poker-card-major ng-click="showCards.checkCardOnTable(0,$index)"
+                                                      tabindex="0" class="cardOnTable"
+                                                      card="x.card[0]"></poker-card-major>
+                                    <poker-card-major ng-click="showCards.checkCardOnTable(1,$index)"
+                                                      tabindex="0" class="cardOnTable"
+                                                      card="x.card[1]"></poker-card-major>
+                                </div>
+
+                                <div class="headerPlayer">
+                                    <p><span class="red">Win:</span> {{x.win}}%</p>
+                                    <p><span class="red">Tie:</span> {{x.tie}}%</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="players">
+                            <div class="player" ng-repeat="x in showCards.players.slice(5,10) ">
+
+                                <div class="cardPlayer">
+                                    <poker-card-major ng-click="showCards.checkCardOnTable(0,5+$index)"
+                                                      tabindex="0" class="cardOnTable"
+                                                      card="x.card[0]"></poker-card-major>
+                                    <poker-card-major ng-click="showCards.checkCardOnTable(1,5+$index)"
+                                                      tabindex="0" class="cardOnTable"
+                                                      card="x.card[1]"></poker-card-major>
+                                </div>
+
+                                <div class="headerPlayer">
+                                    <p><span class="red">Win:</span> {{x.win}}%</p>
+                                    <p><span class="red">Tie:</span> {{x.tie}}%</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="wrapExcludeCards">
+                    <h3>Excluded Cards</h3>
+                    <div class="excludedCards">
+                        <div class="cardInExclude" ng-repeat="x in showCards.excludedCards  track by $index">
+                            <poker-card-major ng-click="showCards.checkCardOnTable($index,'excluded')"
+                                              tabindex="0" class="cardOnTable" card="x"></poker-card-major>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="calculatorSettings">
+
+                <button type="button" class="btn btn-primary" ng-click="showCards.getHelloFromService()">Calculate</button>
+
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary"  ng-disabled="showCards.players.length >=10" ng-click="showCards.addPlayer()">Add player</button>
+                    <button type="button" class="btn btn-secondary" ng-click="showCards.resetPlayers()">Reset players</button>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+</div>
+
+<script src="bundle.js"></script>
 </body>
 </html>
