@@ -1,0 +1,190 @@
+
+
+
+@font-face {
+    font-family: myPokerFont;
+    src: url(../lib/fonts/PokerKings-Regular.ttf);
+}
+
+
+
+.background{
+    background-image: url(../img/pokerTable/background_black_chips.jpg);
+    background-size: cover;
+    position: fixed;
+    left: 0; right: 0; top: 0; bottom: 0;
+    filter: blur(3px)  ;
+    background-position:50% 50%;
+}
+
+
+
+.pokerCalculatorHeader{
+    margin-top: 30px;
+    font-family:  myPokerFont,sans-serif;
+    color: #e8e7e4;
+    text-align: center;
+    position: relative;
+    text-shadow: 1px 1px 2px black, 0 0 0.8em #ffffff;
+
+}
+
+
+.calculatorSettings{
+    position: relative;
+}
+
+.mainWrap{
+    position: relative;
+}
+
+.pokerField{
+    background-image: url(../img/pokerTable/poker-carpet-700.jpg);
+    width: 850px;
+    height: 650px;
+    margin: 20px auto 1px auto;
+    padding: 1px;
+}
+
+.pokerBoard{
+    width: 300px;
+    height: 50px;
+    margin: 55px auto;
+    padding: auto;
+}
+
+.flop{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.turn{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.river{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.player{
+    margin:auto;
+}
+
+
+
+.headerPlayer{
+    font-size: 14px;
+    background-color: rgb(38, 38, 38);
+    font-family: Gill Sans Extrabold, sans-serif;
+    color: #ffffff;
+    margin: 1px auto 1px auto;
+    text-align: center;
+}
+
+.red{
+    color: #dc0014;
+}
+
+.headerPlayer p{
+    margin: auto;
+
+}
+.suit{
+    overflow: hidden;
+}
+
+.cardPoker{
+    display: inline-block;
+
+}
+
+.cardSmall{
+    float: left;
+    margin: 2px 2px 0 2px;
+}
+
+.cardOnTable:focus {
+    outline: 2px solid #5b70ff;
+}
+
+
+.boxInline{
+    float: left;
+    display: inline-block;
+}
+
+.boxInline:first-child{
+
+    margin-right: 10px;
+}
+
+
+.keyboard{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player h3{
+
+    text-align: center;
+    margin: 2px auto ;
+    color: #ffffff;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+}
+
+.players{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+
+
+.player{
+    display: inline-block;
+    margin: auto;
+}
+
+.playersArea{
+    height: 236px;
+}
+
+
+
+.cardInExclude{
+    display: inline-block;
+    margin: auto;
+}
+.excludedCards{
+    display: flex;
+}
+
+.wrapGameField{
+    margin: 30px;
+}
+
+.wrapExcludeCards{
+    margin: 20px 21px auto 21px;
+}
+
+.wrapExcludeCards h3{
+    margin: auto;
+    color: #ffffff;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+}
+
+
+
+.calculatorSettings{
+    margin: 40px auto;
+}
+
+
+.mainWrap{
+    display: inline;
+}
