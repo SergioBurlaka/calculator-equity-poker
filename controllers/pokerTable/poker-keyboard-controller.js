@@ -3,7 +3,9 @@
 module.exports = function (ngModule) {
     ngModule.controller('showCards', showCards);
 
-    showCards.$inject = [ 'calculationService'];
+
+    // showCards.$inject = ['calculateEquityService'];
+    showCards.$inject = ['calculationService'];
 
     function showCards( calculationService) {
 
@@ -134,21 +136,41 @@ module.exports = function (ngModule) {
         vm.resetPlayers = resetPlayers;
         vm.getHelloFromService = getHelloFromService;
 
+        vm.numberA = 0;
+        vm.numberB = 0;
+
+
+
 
         function getHelloFromService() {
 
 
-            var flop    = getArrOfCards(vm.flop);
-            var turn    = getArrOfCards(vm.turn);
-            var river   = getArrOfCards(vm.river);
-            var players = getArrOfPlayersCards(vm.players);
+            var flop     = getArrOfCards(vm.flop);
+            var turn     = getArrOfCards(vm.turn);
+            var river    = getArrOfCards(vm.river);
+            var players  = getArrOfPlayersCards(vm.players);
             var excluded = getArrOfExcludedCards(vm.excludedCards);
 
 
-
+            var sendData = {
+                flop: flop,
+                turn: turn,
+                river: river,
+                players: players,
+                excluded: excluded
+            };
 
             var resultOfCalculation = calculationService.sayHelloFromService(flop, turn, river, excluded, players);
             setResultOfCalculation(resultOfCalculation);
+
+            // calculateEquityService.calculateEquity(sendData)
+            //     .then(function (response) {
+            //             var resultOfCalculation = response.data.data;
+            //             setResultOfCalculation(resultOfCalculation);
+            //
+            //         },
+            //         function (response) {
+            //         });
 
 
         };

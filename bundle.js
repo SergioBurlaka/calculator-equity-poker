@@ -717,7 +717,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\r\n\r\n\r\n@font-face {\r\n    font-family: myPokerFont;\r\n    src: url(" + __webpack_require__(8) + ");\r\n}\r\n\r\n\r\n\r\n.background{\r\n    background-image: url(" + __webpack_require__(9) + ");\r\n    background-size: cover;\r\n    position: fixed;\r\n    left: 0; right: 0; top: 0; bottom: 0;\r\n    filter: blur(3px)  ;\r\n    background-position:50% 50%;\r\n}\r\n\r\n\r\n\r\n.pokerCalculatorHeader{\r\n    margin-top: 30px;\r\n    font-family:  myPokerFont,sans-serif;\r\n    color: #e8e7e4;\r\n    text-align: center;\r\n    position: relative;\r\n    text-shadow: 1px 1px 2px black, 0 0 0.8em #ffffff;\r\n\r\n}\r\n\r\n\r\n.calculatorSettings{\r\n    position: relative;\r\n}\r\n\r\n.mainWrap{\r\n    position: relative;\r\n}\r\n\r\n.pokerField{\r\n    background-image: url(" + __webpack_require__(10) + ");\r\n    width: 850px;\r\n    height: 650px;\r\n    margin: 20px auto 1px auto;\r\n    padding: 1px;\r\n}\r\n\r\n.pokerBoard{\r\n    width: 300px;\r\n    height: 50px;\r\n    margin: 55px auto;\r\n    padding: auto;\r\n}\r\n\r\n.flop{\r\n    display: inline-block;\r\n    margin-left: 10px;\r\n\r\n}\r\n\r\n.turn{\r\n    display: inline-block;\r\n    margin-left: 20px;\r\n}\r\n\r\n.river{\r\n    display: inline-block;\r\n    margin-left: 20px;\r\n}\r\n\r\n.player{\r\n    margin:auto;\r\n}\r\n\r\n\r\n\r\n.headerPlayer{\r\n    font-size: 14px;\r\n    background-color: rgb(38, 38, 38);\r\n    font-family: Gill Sans Extrabold, sans-serif;\r\n    color: #ffffff;\r\n    margin: 1px auto 1px auto;\r\n    text-align: center;\r\n}\r\n\r\n.red{\r\n    color: #dc0014;\r\n}\r\n\r\n.headerPlayer p{\r\n    margin: auto;\r\n\r\n}\r\n.suit{\r\n    overflow: hidden;\r\n}\r\n\r\n.cardPoker{\r\n    display: inline-block;\r\n\r\n}\r\n\r\n.cardSmall{\r\n    float: left;\r\n    margin: 2px 2px 0 2px;\r\n}\r\n\r\n.cardOnTable:focus {\r\n    outline: 2px solid #5b70ff;\r\n}\r\n\r\n\r\n.boxInline{\r\n    float: left;\r\n    display: inline-block;\r\n}\r\n\r\n.boxInline:first-child{\r\n\r\n    margin-right: 10px;\r\n}\r\n\r\n\r\n.keyboard{\r\n    margin-top: 20px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.player h3{\r\n\r\n    text-align: center;\r\n    margin: 2px auto ;\r\n    color: #ffffff;\r\n    font-family: \"Helvetica Neue Light\", \"HelveticaNeue-Light\", \"Helvetica Neue\", Calibri, Helvetica, Arial;\r\n}\r\n\r\n.players{\r\n    display: flex;\r\n    margin-bottom: 20px;\r\n\r\n}\r\n\r\n\r\n\r\n.player{\r\n    display: inline-block;\r\n    margin: auto;\r\n}\r\n\r\n.playersArea{\r\n    height: 236px;\r\n}\r\n\r\n\r\n\r\n.cardInExclude{\r\n    display: inline-block;\r\n    margin: auto;\r\n}\r\n.excludedCards{\r\n    display: flex;\r\n}\r\n\r\n.wrapGameField{\r\n    margin: 30px;\r\n}\r\n\r\n.wrapExcludeCards{\r\n    margin: 20px 21px auto 21px;\r\n}\r\n\r\n.wrapExcludeCards h3{\r\n    margin: auto;\r\n    color: #ffffff;\r\n    font-family: \"Helvetica Neue Light\", \"HelveticaNeue-Light\", \"Helvetica Neue\", Calibri, Helvetica, Arial;\r\n}\r\n\r\n\r\n\r\n.calculatorSettings{\r\n    margin: 40px auto;\r\n}\r\n\r\n\r\n.mainWrap{\r\n    display: inline;\r\n}", ""]);
+exports.push([module.i, "\r\n\r\n\r\n@font-face {\r\n    font-family: myPokerFont;\r\n    src: url(" + __webpack_require__(8) + ");\r\n}\r\n\r\n\r\n\r\n.background{\r\n    background-image: url(" + __webpack_require__(9) + ");\r\n    background-size: cover;\r\n    position: fixed;\r\n    left: 0; right: 0; top: 0; bottom: 0;\r\n    filter: blur(3px)  ;\r\n    background-position:50% 50%;\r\n}\r\n\r\n\r\n\r\n.pokerCalculatorHeader{\r\n    margin-top: 30px;\r\n    font-family:  myPokerFont,sans-serif;\r\n    color: #e8e7e4;\r\n    text-align: center;\r\n    position: relative;\r\n    text-shadow: 1px 1px 2px black, 0 0 0.8em #ffffff;\r\n\r\n}\r\n\r\n\r\n.calculatorSettings{\r\n    position: relative;\r\n}\r\n\r\n.mainWrap{\r\n    position: relative;\r\n}\r\n\r\n.pokerField{\r\n    background-image: url(" + __webpack_require__(10) + ");\r\n    width: 850px;\r\n    height: 650px;\r\n    margin: 20px auto 1px auto;\r\n    padding: 1px;\r\n}\r\n\r\n.pokerBoard{\r\n    width: 300px;\r\n    height: 50px;\r\n    margin: 55px auto;\r\n    padding: auto;\r\n}\r\n\r\n.flop{\r\n    display: inline-block;\r\n    margin-left: 10px;\r\n\r\n}\r\n\r\n.turn{\r\n    display: inline-block;\r\n    margin-left: 20px;\r\n}\r\n\r\n.river{\r\n    display: inline-block;\r\n    margin-left: 20px;\r\n}\r\n\r\n.player{\r\n    margin:auto;\r\n}\r\n\r\n\r\n\r\n.headerPlayer{\r\n    font-size: 14px;\r\n    background-color: rgb(38, 38, 38);\r\n    font-family: Gill Sans Extrabold, sans-serif;\r\n    color: #ffffff;\r\n    margin: 1px auto 1px auto;\r\n    text-align: center;\r\n}\r\n\r\n.red{\r\n    color: #dc0014;\r\n}\r\n\r\n.headerPlayer p{\r\n    margin: auto;\r\n\r\n}\r\n.suit{\r\n    overflow: hidden;\r\n}\r\n\r\n.cardPoker{\r\n    display: inline-block;\r\n\r\n}\r\n\r\n.cardSmall{\r\n    float: left;\r\n    margin: 2px 2px 0 2px;\r\n}\r\n\r\n.cardOnTable:focus {\r\n    outline: 2px solid #5b70ff;\r\n}\r\n\r\n\r\n.boxInline{\r\n    float: left;\r\n    display: inline-block;\r\n}\r\n\r\n.boxInline:first-child{\r\n\r\n    margin-right: 10px;\r\n}\r\n\r\n\r\n.keyboard{\r\n    margin-top: 20px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.player h3{\r\n\r\n    text-align: center;\r\n    margin: 2px auto ;\r\n    color: #ffffff;\r\n    font-family: \"Helvetica Neue Light\", \"HelveticaNeue-Light\", \"Helvetica Neue\", Calibri, Helvetica, Arial;\r\n}\r\n\r\n.players{\r\n    display: flex;\r\n    margin-bottom: 20px;\r\n\r\n}\r\n\r\n\r\n\r\n.player{\r\n    display: inline-block;\r\n    margin: auto;\r\n}\r\n\r\n.playersArea{\r\n    height: 236px;\r\n}\r\n\r\n\r\n\r\n.cardInExclude{\r\n    display: inline-block;\r\n    margin: auto;\r\n}\r\n.excludedCards{\r\n    display: flex;\r\n}\r\n\r\n.wrapGameField{\r\n    margin: 30px;\r\n}\r\n\r\n.wrapExcludeCards{\r\n    margin: 20px 21px auto 21px;\r\n}\r\n\r\n.wrapExcludeCards h3{\r\n    margin: auto;\r\n    color: #ffffff;\r\n    font-family: \"Helvetica Neue Light\", \"HelveticaNeue-Light\", \"Helvetica Neue\", Calibri, Helvetica, Arial;\r\n}\r\n\r\n\r\n\r\n.calculatorSettings{\r\n    margin: 40px auto;\r\n}\r\n\r\n\r\n.mainWrap{\r\n    display: inline;\r\n}\r\n\r\n.miniCalculator{\r\n    background-color: #9ec5fc;\r\n}", ""]);
 
 // exports
 
@@ -19038,6 +19038,7 @@ module.exports = function (ngModule) {
 module.exports = function (ngModule) {
     ngModule.controller('showCards', showCards);
 
+    // showCards.$inject = ['calculateEquityService'];
     showCards.$inject = ['calculationService'];
 
     function showCards(calculationService) {
@@ -19126,6 +19127,9 @@ module.exports = function (ngModule) {
         vm.resetPlayers = resetPlayers;
         vm.getHelloFromService = getHelloFromService;
 
+        vm.numberA = 0;
+        vm.numberB = 0;
+
         function getHelloFromService() {
 
             var flop = getArrOfCards(vm.flop);
@@ -19134,8 +19138,26 @@ module.exports = function (ngModule) {
             var players = getArrOfPlayersCards(vm.players);
             var excluded = getArrOfExcludedCards(vm.excludedCards);
 
+            var sendData = {
+                flop: flop,
+                turn: turn,
+                river: river,
+                players: players,
+                excluded: excluded
+            };
+
             var resultOfCalculation = calculationService.sayHelloFromService(flop, turn, river, excluded, players);
             setResultOfCalculation(resultOfCalculation);
+
+            // calculateEquityService.calculateEquity(sendData)
+            //     .then(function (response) {
+            //             var resultOfCalculation = response.data.data;
+            //             setResultOfCalculation(resultOfCalculation);
+            //
+            //         },
+            //         function (response) {
+            //         });
+
         };
 
         function setResultOfCalculation(resultOfCalculation) {
@@ -19277,18 +19299,24 @@ module.exports = function (ngModule) {
 
 module.exports = function (ngModule) {
     __webpack_require__(19)(ngModule);
+    __webpack_require__(20)(ngModule);
+    __webpack_require__(21)(ngModule);
+    __webpack_require__(22)(ngModule);
+    __webpack_require__(23)(ngModule);
+    // require('./calculate-equity-service.js')(ngModule);
 };
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports) {
 
-
-
 module.exports = function (ngModule) {
+
     ngModule.factory('calculationService', calculationService);
 
-    function calculationService() {
+    calculationService.$inject = ['findWinnerService'];
+
+    function calculationService(findWinnerService) {
 
         var service = {
 
@@ -19299,698 +19327,7 @@ module.exports = function (ngModule) {
 
         function sayHelloFromService(flopArr, turnArr, riverArr, excludedArr, playersArr) {
 
-            var timeOfIteration = 10000;
-
-            var deckPoker52 = ['2 s', '3 s', '4 s', '5 s', '6 s', '7 s', '8 s', '9 s', '1 s', 'J s', 'Q s', 'K s', 'A s', '2 h', '3 h', '4 h', '5 h', '6 h', '7 h', '8 h', '9 h', '1 h', 'J h', 'Q h', 'K h', 'A h', '2 d', '3 d', '4 d', '5 d', '6 d', '7 d', '8 d', '9 d', '1 d', 'J d', 'Q d', 'K d', 'A d', '2 c', '3 c', '4 c', '5 c', '6 c', '7 c', '8 c', '9 c', '1 c', 'J c', 'Q c', 'K c', 'A c'];
-
-            function randomInteger(min, max) {
-                var rand = min - 0.5 + Math.random() * (max - min + 1);
-                rand = Math.round(rand);
-                return rand;
-            }
-
-            function isSameSuit(arr) {
-                var firstCart = arr[0].slice(-1);
-                for (var i = 0; i < arr.length; i++) {
-                    var tempCart = arr[i].slice(-1);
-                    if (firstCart !== tempCart) {
-                        return false;
-                    }
-                }
-                return true;
-            }
-
-            function isRoyalFlush(arrOfCards) {
-
-                if (!isSameSuit(arrOfCards)) {
-                    return false;
-                }
-
-                if (!findCard(arrOfCards, '1')) {
-                    return false;
-                }
-
-                if (!findCard(arrOfCards, 'J')) {
-                    return false;
-                }
-
-                if (!findCard(arrOfCards, 'Q')) {
-                    return false;
-                }
-
-                if (!findCard(arrOfCards, 'K')) {
-                    return false;
-                }
-
-                if (!findCard(arrOfCards, 'A')) {
-                    return false;
-                }
-
-                return true;
-            }
-
-            function findCard(arrOfCards, lastSign) {
-
-                for (var i = 0; i < arrOfCards.length; i++) {
-                    var tempCard = arrOfCards[i].slice(0, 1);
-                    if (tempCard == lastSign) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            function findCardAtPokerDeck(pokerDeck, myCard) {
-
-                for (var i = 0; i < pokerDeck.length; i++) {
-                    if (pokerDeck[i] === myCard) {
-                        return i;
-                    }
-                }
-            }
-
-            function getAllPositionsAtPokerDeck(pokerDeck, knownCardArray) {
-                var positionArrOfCards = [];
-                for (var i = 0; i < knownCardArray.length; i++) {
-                    var tempVariable = findCardAtPokerDeck(pokerDeck, knownCardArray[i]);
-                    positionArrOfCards.push(tempVariable);
-                }
-                return positionArrOfCards;
-            }
-
-            function filterDeck(deck, cardsForFilter) {
-                for (var i = 0; i < cardsForFilter.length; i++) {
-                    deck = deck.filter(item => item !== cardsForFilter[i]);
-                }
-                return deck;
-            }
-
-            function generateRandomCards(generateCards, deckState) {
-                var arrCards = [];
-                for (var i = 0; i < generateCards; i++) {
-
-                    var randomCard = randomInteger(0, deckState.length - 1);
-                    arrCards.push(deckState[randomCard]);
-                    deckState = deckState.filter(item => item !== deckState[randomCard]);
-                }
-                return arrCards;
-            }
-
-            function getSuitBiggerThenFive(arrOfCards) {
-
-                var countDiamonds = 0;
-                var countHearts = 0;
-                var countSpades = 0;
-                var countClubs = 0;
-
-                for (var i = 0; i < arrOfCards.length; i++) {
-
-                    if (arrOfCards[i].slice(-1) == 'd') {
-                        countDiamonds++;
-                        continue;
-                    }
-                    if (arrOfCards[i].slice(-1) == 'h') {
-                        countHearts++;
-                        continue;
-                    }
-                    if (arrOfCards[i].slice(-1) == 's') {
-                        countSpades++;
-                        continue;
-                    }
-                    if (arrOfCards[i].slice(-1) == 'c') {
-                        countClubs++;
-                    }
-                }
-
-                var arrOfSuits = {
-                    'd': countDiamonds,
-                    'h': countHearts,
-                    's': countSpades,
-                    'c': countClubs
-                };
-
-                var maxCountSuit = 0;
-                var suit = '';
-
-                for (var key in arrOfSuits) {
-                    if (arrOfSuits[key] > maxCountSuit) {
-                        maxCountSuit = arrOfSuits[key];
-                        suit = key;
-                    }
-                }
-
-                var suitBiggerThenFive = {
-                    suit: '',
-                    count: 0
-                };
-
-                if (maxCountSuit >= 5) {
-                    suitBiggerThenFive.suit = suit;
-                    suitBiggerThenFive.count = maxCountSuit;
-                }
-
-                return suitBiggerThenFive;
-            }
-
-            function sortNumber(a, b) {
-                return a - b;
-            }
-
-            function isStraightFlush(arrOfCards) {
-
-                var isSuitBiggerThenFive = getSuitBiggerThenFive(arrOfCards);
-                var suitCard = isSuitBiggerThenFive.suit;
-
-                if (!(isSuitBiggerThenFive.count >= 5)) {
-                    return {
-                        isStraight: false,
-                        straightCombination: []
-                    };
-                }
-
-                var filteredArrBySuit = arrOfCards.filter(item => item.slice(-1) === suitCard);
-                return findStraightSequence(filteredArrBySuit, false);
-            }
-
-            function isQuads(arrOfCards) {
-                var templateStraightFlush = '234567891JQKA';
-
-                for (var i = 0; i < templateStraightFlush.length; i++) {
-
-                    var tempArr = arrOfCards.filter(item => item.slice(0, 1) === templateStraightFlush[i]);
-
-                    if (tempArr.length >= 4) {
-
-                        var cardWitoutQuads = arrOfCards.filter(item => item.slice(0, 1) !== tempArr[0].slice(0, 1));
-
-                        var quadKicker = getBestCardSequence(cardWitoutQuads, 1);
-                        var rankOfCards = convertCardToRank([...tempArr, ...quadKicker]);
-
-                        return {
-                            isQuads: true,
-                            rankOfQuads: rankOfCards
-                        };
-                    }
-                }
-                return {
-                    isQuads: false,
-                    rankOfQuads: []
-                };
-            }
-
-            function convertCardToRank(arrOfCards) {
-                var templateStraightFlush = '234567891JQKA';
-                var cardRunkArr = [];
-
-                for (var i = 0; i < arrOfCards.length; i++) {
-                    var getCardRank = arrOfCards[i].slice(0, 1);
-                    var cardIndex = templateStraightFlush.indexOf(getCardRank);
-
-                    cardRunkArr.push(cardIndex);
-                }
-
-                return cardRunkArr;
-            }
-
-            function getArrOfSameRankCard(arrOfCards, numberOfSameRank) {
-                var templateStraightFlush = '234567891JQKA';
-                var arrOfSameRankCard;
-                for (var i = 0; i < templateStraightFlush.length; i++) {
-                    arrOfSameRankCard = arrOfCards.filter(item => item.slice(0, 1) === templateStraightFlush[i]);
-                    if (arrOfSameRankCard.length == numberOfSameRank) {
-                        return arrOfSameRankCard;
-                    }
-                }
-                return [];
-            }
-
-            function isFullHouse(arrOfCards) {
-
-                var tripleCard = getArrOfSameRankCard(arrOfCards, 3);
-
-                if (tripleCard.length !== 3) {
-                    return {
-                        isFullHouse: false,
-                        cardRunk: []
-                    };
-                }
-
-                var arrWithoutTripleCard = arrOfCards.filter(item => item.slice(0, 1) !== tripleCard[0].slice(0, 1));
-                var doubleCard = getArrOfSameRankCard(arrWithoutTripleCard, 2);
-
-                if (doubleCard.length !== 2) {
-                    return {
-                        isFullHouse: false,
-                        cardRunk: []
-                    };
-                }
-
-                var fullHouse = [...tripleCard, ...doubleCard];
-                var cardRunk = convertCardToRank(fullHouse);
-
-                return {
-                    isFullHouse: true,
-                    cardRunk: cardRunk
-                };
-            }
-
-            function isFlush(arrOfCards) {
-                var isSuitBiggerThenFive = getSuitBiggerThenFive(arrOfCards);
-                var suit = isSuitBiggerThenFive.suit;
-
-                if (isSuitBiggerThenFive.count >= 5) {
-
-                    var arrCardSameSuit = arrOfCards.filter(item => item.slice(-1) == suit);
-                    var flushCard = getBestCardSequence(arrCardSameSuit, 5);
-                    var cardRankArr = convertCardToRank(flushCard);
-
-                    return {
-                        isFlush: true,
-                        cardRank: cardRankArr
-                    };
-                }
-
-                return {
-                    isFlush: false,
-                    cardRank: []
-                };
-            }
-
-            function getArrWithoutSameRankCard(arrOfCards) {
-                var tempArr = arrOfCards.slice();
-
-                var arrOfDubbleCard = getArrOfSameRankCard(tempArr, 2);
-
-                while (arrOfDubbleCard.length > 0) {
-                    var indexOfSameCard = tempArr.indexOf(arrOfDubbleCard[0]);
-                    tempArr.splice(indexOfSameCard, 1);
-                    arrOfDubbleCard = getArrOfSameRankCard(tempArr, 2);
-                }
-                return tempArr;
-            }
-
-            function isStraight(arrOfCards) {
-                var arrCardWithoutSameRank = getArrWithoutSameRankCard(arrOfCards);
-
-                return findStraightSequence(arrCardWithoutSameRank, true);
-            }
-
-            function findStraightSequence(arrOfCards, useInStraight) {
-
-                var arrOfIndexes = [];
-                var templateStraightFlush = '234567891JQKA';
-
-                for (var i = 0; i < arrOfCards.length; i++) {
-                    var signOfCard = arrOfCards[i].slice(0, 1);
-                    var indexOfSign = templateStraightFlush.indexOf(signOfCard);
-                    arrOfIndexes.push(indexOfSign);
-                }
-
-                arrOfIndexes = arrOfIndexes.sort(sortNumber);
-                var makeString = arrOfIndexes.join(',');
-
-                if (makeString.indexOf('0,1,2,3') >= 0 && makeString.indexOf('12') >= 0) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [1, 1, 1, 1, 1]
-                    };
-                }
-
-                if (makeString.indexOf('0,1,2,3,4') >= 0) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [2, 2, 2, 2, 2]
-                    };
-                }
-
-                if (makeString.indexOf('1,2,3,4,5') >= 0) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [3, 3, 3, 3, 3]
-                    };
-                }
-
-                if (makeString.indexOf('2,3,4,5,6') >= 0) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [4, 4, 4, 4, 4]
-                    };
-                }
-
-                if (makeString.indexOf('3,4,5,6,7') >= 0) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [5, 5, 5, 5, 5]
-                    };
-                }
-
-                if (makeString.indexOf('4,5,6,7,8') >= 0) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [6, 6, 6, 6, 6]
-                    };
-                }
-
-                if (makeString.indexOf('5,6,7,8,9') >= 0) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [7, 7, 7, 7, 7]
-                    };
-                }
-
-                if (makeString.indexOf('6,7,8,9,10') >= 0) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [8, 8, 8, 8, 8]
-                    };
-                }
-
-                if (makeString.indexOf('7,8,9,10,11') >= 0) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [9, 9, 9, 9, 9]
-                    };
-                }
-
-                if (makeString.indexOf('8,9,10,11,12') >= 0 && useInStraight) {
-                    return {
-                        isStraight: true,
-                        straightCombination: [10, 10, 10, 10, 10]
-                    };
-                }
-
-                return {
-                    isStraight: false,
-                    straightCombination: []
-                };
-            }
-
-            function threeOfAKind(arrOfCards) {
-
-                var tripleCard = getArrOfSameRankCard(arrOfCards, 3);
-                if (tripleCard.length == 3) {
-
-                    var filteredCards = filterPlayersCard(arrOfCards, tripleCard);
-                    var kickers = getBestCardSequence(filteredCards, 2);
-                    var cardRankArr = convertCardToRank([...tripleCard, ...kickers]);
-
-                    return {
-                        isThreeOfAKind: true,
-                        cardRankArr: cardRankArr
-                    };
-                }
-
-                return {
-                    isThreeOfAKind: false,
-                    cardRankArr: []
-                };
-            }
-
-            function filterPlayersCard(arrOfCards, cardsForFilter) {
-                var filteredCards = arrOfCards.slice();
-                for (var i = 0; i < cardsForFilter.length; i++) {
-                    filteredCards = filteredCards.filter(item => item !== cardsForFilter[i]);
-                }
-                return filteredCards;
-            }
-
-            function isTwoPairs(arrOfCards) {
-
-                var firstPair = getArrOfSameRankCard(arrOfCards, 2);
-
-                if (firstPair.length !== 2) {
-                    return {
-                        isTwoPairs: false,
-                        cardRank: []
-                    };
-                }
-
-                var arrWithoutFirstPair = arrOfCards.filter(item => item.slice(0, 1) !== firstPair[0].slice(0, 1));
-                var secondPair = getArrOfSameRankCard(arrWithoutFirstPair, 2);
-
-                if (secondPair.length !== 2) {
-                    return {
-                        isTwoPairs: false,
-                        cardRank: []
-                    };
-                }
-
-                var arrWithoutSecondPair = arrWithoutFirstPair.filter(item => item.slice(0, 1) !== secondPair[0].slice(0, 1));
-                var kicker = getBestCardSequence(arrWithoutSecondPair, 1);
-                var convertedFirstPair = convertCardToRank(firstPair);
-                var convertedSecondPair = convertCardToRank(secondPair);
-                var convertedKicker = convertCardToRank(kicker);
-
-                var rankOfCards = [...convertedFirstPair, ...convertedSecondPair, ...convertedKicker];
-
-                if (convertedSecondPair[0] > convertedFirstPair[0]) {
-                    rankOfCards = [...convertedSecondPair, ...convertedFirstPair, ...convertedKicker];
-                }
-
-                return {
-                    isTwoPairs: true,
-                    cardRank: rankOfCards
-                };
-            }
-
-            function isOnePair(arrOfCards) {
-
-                var firstPair = getArrOfSameRankCard(arrOfCards, 2);
-
-                if (firstPair.length !== 2) {
-                    return {
-                        isOnePair: false,
-                        cardRank: []
-                    };
-                }
-
-                var arrWithoutFirstPair = arrOfCards.filter(item => item.slice(0, 1) !== firstPair[0].slice(0, 1));
-
-                var kicker = getBestCardSequence(arrWithoutFirstPair, 3);
-                var rankOfCards = convertCardToRank([...firstPair, ...kicker]);
-
-                return {
-                    isOnePair: true,
-                    cardRank: rankOfCards
-                };
-            }
-
-            function findWinner(flop, turn, generateTurn, river, generateRiver, excludeCards, firstPlayer, secondPlayer) {
-
-                var players = [];
-                var numbersOfPlayers = 0;
-                var playerHasTwoCard = 2;
-
-                for (var l = 6; l < arguments.length; l++) {
-                    numbersOfPlayers++;
-                    players.push(arguments[l]);
-                }
-
-                var knownCardArray = flop;
-                var flopLength = 3;
-
-                if (generateTurn) {
-                    knownCardArray = [...knownCardArray, ...turn];
-                }
-
-                if (generateRiver) {
-                    knownCardArray = [...knownCardArray, ...river];
-                }
-
-                if (flop.length === 0) {
-                    var everyTimeInitFlop = true;
-                }
-
-                if (turn.length === 0 && generateTurn) {
-                    var everyTimeInitTurn = true;
-                }
-
-                if (river.length === 0 && generateRiver) {
-                    var everyTimeInitRiver = true;
-                }
-
-                players = setGenerationCardForUsers(players);
-                var allPlayersCard = getAllPlayersCard(players);
-
-                var numberOfCardForGenerate = flopLength + generateTurn + generateRiver + numbersOfPlayers * playerHasTwoCard;
-
-                knownCardArray = [...knownCardArray, ...allPlayersCard];
-
-                for (var i = 0; i < timeOfIteration; i++) {
-
-                    var randomCards = getRandomCards(deckPoker52, knownCardArray, numberOfCardForGenerate, excludeCards);
-
-                    flop = creatingFlop(flop, randomCards, everyTimeInitFlop);
-                    turn = creatingTurn(turn, randomCards, everyTimeInitTurn);
-                    river = creatingRiver(river, randomCards, everyTimeInitRiver);
-
-                    var cardOnBoard = [...flop, ...turn, ...river];
-
-                    players = creatingPlayersCard(players, cardOnBoard, randomCards);
-                    players = setCombinationHierarhy(players);
-
-                    var allPlayersCombinationRank = getAllPlayersCombinationRank(players);
-
-                    var playersWithSameRank = getWinners(allPlayersCombinationRank);
-                    var playersWin = playersWithSameRank.countSameValue;
-
-                    if (playersWin.length > 1) {
-
-                        var playersCardWeight = getWeightCard(players, playersWin);
-
-                        var highestCard = findHighestCard(...playersCardWeight);
-                        var playerWhoWin = getWinners(highestCard).countSameValue;
-
-                        var indexesOfWinner = getPlayerIndexWhoWin(playerWhoWin, playersWin);
-
-                        if (indexesOfWinner.length == 1) {
-                            setWin(players, indexesOfWinner);
-                        }
-
-                        if (indexesOfWinner.length > 1) {
-                            setTie(players, indexesOfWinner);
-                        }
-                    }
-
-                    if (playersWin.length == 1) {
-                        setWin(players, playersWin);
-                    }
-                }
-
-                return players;
-            }
-
-            function setGenerationCardForUsers(players) {
-
-                for (var i = 0; i < players.length; i++) {
-
-                    if (players[i].getCard().length == 0) {
-                        players[i].setGeneratePlayersCard();
-                    }
-                }
-
-                return players;
-            }
-
-            function getPlayerIndexWhoWin(arrOfWinner, playersWithSameRank) {
-                var arrOfIndexPlayers = [];
-                for (var i = 0; i < arrOfWinner.length; i++) {
-                    var indexOfWinner = arrOfWinner[i];
-                    arrOfIndexPlayers.push(playersWithSameRank[indexOfWinner]);
-                }
-                return arrOfIndexPlayers;
-            }
-
-            function setTie(players, playersWhoWin) {
-
-                for (var i = 0; i < playersWhoWin.length; i++) {
-
-                    var playerIndex = playersWhoWin[i];
-                    players[playerIndex].setTie();
-                }
-
-                return players;
-            }
-
-            function setWin(players, playersWhoWin) {
-
-                for (var i = 0; i < playersWhoWin.length; i++) {
-
-                    var playerIndex = playersWhoWin[i];
-                    players[playerIndex].setWin();
-                }
-
-                return players;
-            }
-
-            function getAllPlayersCombinationRank(players) {
-
-                var allPlayersCombinationRank = [];
-
-                for (var i = 0; i < players.length; i++) {
-                    var tempPlayerCombinationRank = players[i].getHierarchicCardCombination().rankOfCombination;
-                    allPlayersCombinationRank.push(tempPlayerCombinationRank);
-                }
-
-                return allPlayersCombinationRank;
-            }
-
-            function getWeightCard(players, indexesOfTieRank) {
-
-                var arrWeightOfCards = [];
-
-                for (var i = 0; i < indexesOfTieRank.length; i++) {
-                    var indexOfPlayer = indexesOfTieRank[i];
-                    arrWeightOfCards.push(players[indexOfPlayer].getHierarchicCardCombination().weight);
-                }
-
-                return arrWeightOfCards;
-            }
-
-            function getAllPlayersCard(players) {
-
-                var allPlayersCard = [];
-
-                for (var i = 0; i < players.length; i++) {
-                    var tempPlayerCard = players[i].getCard();
-                    allPlayersCard = [...allPlayersCard, ...tempPlayerCard];
-                }
-
-                return allPlayersCard;
-            }
-
-            function creatingFlop(flop, randomCards, generateFlop) {
-
-                if (generateFlop) {
-                    flop = randomCards.splice(-3, 3);
-                }
-                return flop;
-            }
-
-            function creatingTurn(turn, randomCards, generateTurn) {
-
-                if (generateTurn) {
-                    turn = randomCards.splice(-1, 3);
-                }
-                return turn;
-            }
-
-            function creatingRiver(river, randomCards, generateRiver) {
-
-                if (generateRiver) {
-                    river = randomCards.splice(-1, 3);
-                }
-                return river;
-            }
-
-            function creatingPlayersCard(players, cardOnBoard, randomCards) {
-
-                for (var i = 0; i < players.length; i++) {
-
-                    var generateCardForUser = players[i].getGeneratePlayersCard();
-
-                    if (generateCardForUser) {
-                        players[i].setCard(randomCards.splice(-2, 2));
-                    }
-
-                    var getOwnPlayerCards = players[i].getCard();
-                    players[i].setPlayCombination([...cardOnBoard, ...getOwnPlayerCards]);
-                }
-
-                return players;
-            }
-
-            function setCombinationHierarhy(players) {
-
-                for (var i = 0; i < players.length; i++) {
-
-                    var playerCombination = players[i].getPlayCombination();
-                    var cardRankCombination = findCombination(playerCombination);
-                    players[i].setHierarchicCardCombination(cardRankCombination);
-                }
-
-                return players;
-            }
+            var timeOfIteration = findWinnerService.timeOfIteration;
 
             class MakePlayer {
                 constructor(card) {
@@ -20045,197 +19382,6 @@ module.exports = function (ngModule) {
 
             }
 
-            function getRandomCards(pokerDeck, knownCardArray, numberOfCards, excludeCardArr) {
-                var deck = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51];
-
-                var positionOfAllKnownCard = getAllPositionsAtPokerDeck(pokerDeck, [...knownCardArray, ...excludeCardArr]);
-
-                var cardForGenerate = numberOfCards - positionOfAllKnownCard.length;
-
-                var filteredDeck = filterDeck(deck, positionOfAllKnownCard);
-                var generatedCards = generateRandomCards(cardForGenerate, filteredDeck);
-
-                var summOfCardNumbers = [...generatedCards];
-
-                for (var i = 0; i < summOfCardNumbers.length; i++) {
-                    summOfCardNumbers[i] = pokerDeck[summOfCardNumbers[i]];
-                }
-
-                return summOfCardNumbers;
-            }
-
-            function findHighestCard() {
-
-                var whoWin = [];
-                var skipPlayer = [];
-                var tempMax;
-                var tempIndexOfMax;
-
-                for (var k = 0; k < arguments.length; k++) {
-                    whoWin[k] = 1;
-                    skipPlayer[k] = 0;
-                }
-
-                for (var i = 0; i < arguments[0].length; i++) {
-
-                    for (var n = 0; n < skipPlayer.length; n++) {
-                        if (skipPlayer[n] !== 1) {
-                            tempMax = arguments[n][i];
-                            tempIndexOfMax = n;
-                            break;
-                        }
-                    }
-
-                    for (var j = 0; j < arguments.length; j++) {
-
-                        if (skipPlayer[j] == 1) {
-                            continue;
-                        }
-
-                        if (arguments[j][i] > tempMax) {
-
-                            for (var m = 0; m < j; m++) {
-                                whoWin[m] = 0;
-                                skipPlayer[m] = 1;
-                            }
-
-                            tempMax = arguments[j][i];
-                            tempIndexOfMax = j;
-                            continue;
-                        }
-
-                        if (arguments[j][i] < tempMax) {
-
-                            whoWin[j] = 0;
-                            skipPlayer[j] = 1;
-                        }
-                    }
-                }
-
-                return whoWin;
-            }
-
-            function getBestCardSequence(tempCards, numberOfGetCards) {
-
-                var bestCard = [];
-                var hierarchicalCardSequence = 'AKQJ198765432';
-
-                for (var i = 0; i < hierarchicalCardSequence.length; i++) {
-
-                    for (var j = 0; j < tempCards.length; j++) {
-                        if (hierarchicalCardSequence[i] == tempCards[j].slice(0, 1)) {
-                            bestCard.push(tempCards[j]);
-                        }
-                    }
-                }
-
-                return bestCard.slice(0, numberOfGetCards);
-            }
-
-            function getWinners(arr) {
-                var maxValue = arr[0];
-                var countSameValue = [];
-
-                for (var i = 0; i < arr.length; i++) {
-
-                    if (maxValue < arr[i]) {
-                        maxValue = arr[i];
-                        countSameValue = [];
-                    }
-
-                    if (maxValue == arr[i]) {
-                        countSameValue.push(i);
-                    }
-                }
-
-                return {
-                    maxValue: maxValue,
-                    countSameValue: countSameValue
-                };
-            }
-
-            function findCombination(tempCards) {
-
-                if (isRoyalFlush(tempCards)) {
-                    return {
-                        rankOfCombination: 10,
-                        weight: [10, 10, 10, 10, 10]
-                    };
-                }
-
-                var isStraightFlushCombination = isStraightFlush(tempCards);
-                if (isStraightFlushCombination.isStraight) {
-                    return {
-                        rankOfCombination: 9,
-                        weight: isStraightFlushCombination.straightCombination
-                    };
-                }
-
-                var isQuadsCombination = isQuads(tempCards);
-                if (isQuadsCombination.isQuads) {
-                    return {
-                        rankOfCombination: 8,
-                        weight: isQuadsCombination.rankOfQuads
-                    };
-                }
-
-                var isFullHouseCombination = isFullHouse(tempCards);
-                if (isFullHouseCombination.isFullHouse) {
-                    return {
-                        rankOfCombination: 7,
-                        weight: isFullHouseCombination.cardRunk
-                    };
-                }
-
-                var isFlushCombination = isFlush(tempCards);
-                if (isFlushCombination.isFlush) {
-                    return {
-                        rankOfCombination: 6,
-                        weight: isFlushCombination.cardRank
-                    };
-                }
-
-                var isStraightCombination = isStraight(tempCards);
-                if (isStraightCombination.isStraight) {
-                    return {
-                        rankOfCombination: 5,
-                        weight: isStraightCombination.straightCombination
-                    };
-                }
-
-                var isThreeOfAKindCombination = threeOfAKind(tempCards);
-                if (isThreeOfAKindCombination.isThreeOfAKind) {
-                    return {
-                        rankOfCombination: 4,
-                        weight: isThreeOfAKindCombination.cardRankArr
-                    };
-                }
-
-                var isTwoPairsCombination = isTwoPairs(tempCards);
-                if (isTwoPairsCombination.isTwoPairs) {
-                    return {
-                        rankOfCombination: 3,
-                        weight: isTwoPairsCombination.cardRank
-                    };
-                }
-
-                var isOnePairCombination = isOnePair(tempCards);
-                if (isOnePairCombination.isOnePair) {
-                    return {
-                        rankOfCombination: 2,
-                        weight: isOnePairCombination.cardRank
-                    };
-                }
-
-                var cardPlayer = getBestCardSequence(tempCards, 5);
-                var rankOfCards = convertCardToRank(cardPlayer);
-
-                return {
-                    rankOfCombination: 1,
-                    weight: rankOfCards
-                };
-            }
-
             function createPlayers(arrFoPlayers) {
                 var arrOfPlayersObject = [];
 
@@ -20249,7 +19395,7 @@ module.exports = function (ngModule) {
 
             var playersForCheck = createPlayers(playersArr);
 
-            var resultOfCalcul = findWinner(flopArr, turnArr, true, riverArr, true, excludedArr, ...playersForCheck);
+            var resultOfCalcul = findWinnerService.findWinner(flopArr, turnArr, true, riverArr, true, excludedArr, ...playersForCheck);
 
             function getResultOfCalculation(resultOfCalcul) {
                 var tempArr = [];
@@ -20257,7 +19403,10 @@ module.exports = function (ngModule) {
                 for (var i = 0; i < resultOfCalcul.length; i++) {
 
                     var tempWin = resultOfCalcul[i].win * 100 / timeOfIteration;
+                    tempWin = tempWin.toFixed(2);
+
                     var tempTie = resultOfCalcul[i].tie * 100 / timeOfIteration;
+                    tempTie = tempTie.toFixed(2);
 
                     tempArr.push({
                         win: tempWin,
@@ -20269,6 +19418,976 @@ module.exports = function (ngModule) {
             }
 
             return getResultOfCalculation(resultOfCalcul);
+        }
+    }
+};
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports) {
+
+
+
+module.exports = function (ngModule) {
+    ngModule.factory('cardGeneratorService', cardGeneratorService);
+
+    function cardGeneratorService() {
+
+        var service = {
+
+            getRandomCard: getRandomCard
+        };
+
+        return service;
+
+        function randomInteger(min, max) {
+            var rand = min - 0.5 + Math.random() * (max - min + 1);
+            rand = Math.round(rand);
+            return rand;
+        }
+
+        function generateRandomCards(generateCards, deckState) {
+            var arrCards = [];
+            for (var i = 0; i < generateCards; i++) {
+
+                var randomCard = randomInteger(0, deckState.length - 1);
+                arrCards.push(deckState[randomCard]);
+                deckState = deckState.filter(item => item !== deckState[randomCard]);
+            }
+            return arrCards;
+        }
+
+        function filterDeck(deck, cardsForFilter) {
+            for (var i = 0; i < cardsForFilter.length; i++) {
+                deck = deck.filter(item => item !== cardsForFilter[i]);
+            }
+            return deck;
+        }
+
+        function findCardAtPokerDeck(pokerDeck, myCard) {
+
+            for (var i = 0; i < pokerDeck.length; i++) {
+                if (pokerDeck[i] === myCard) {
+                    return i;
+                }
+            }
+        }
+
+        function getAllPositionsAtPokerDeck(pokerDeck, knownCardArray) {
+            var positionArrOfCards = [];
+            for (var i = 0; i < knownCardArray.length; i++) {
+                var tempVariable = findCardAtPokerDeck(pokerDeck, knownCardArray[i]);
+                positionArrOfCards.push(tempVariable);
+            }
+            return positionArrOfCards;
+        }
+
+        function getRandomCard(pokerDeck, knownCardArray, numberOfCards, excludeCardArr) {
+
+            var deck = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51];
+
+            var positionOfAllKnownCard = getAllPositionsAtPokerDeck(pokerDeck, [...knownCardArray, ...excludeCardArr]);
+
+            var cardForGenerate = numberOfCards - positionOfAllKnownCard.length;
+
+            var filteredDeck = filterDeck(deck, positionOfAllKnownCard);
+            var generatedCards = generateRandomCards(cardForGenerate, filteredDeck);
+
+            var summOfCardNumbers = [...generatedCards];
+
+            for (var i = 0; i < summOfCardNumbers.length; i++) {
+                summOfCardNumbers[i] = pokerDeck[summOfCardNumbers[i]];
+            }
+
+            return summOfCardNumbers;
+        }
+    }
+};
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports) {
+
+
+
+module.exports = function (ngModule) {
+
+            ngModule.factory('findWinnerService', findWinnerService);
+
+            findWinnerService.$inject = ['cardGeneratorService', 'findCombinationService'];
+
+            function findWinnerService(cardGeneratorService, findCombinationService) {
+
+                        var timeOfIteration = 50000;
+
+                        var deckPoker52 = ['2 s', '3 s', '4 s', '5 s', '6 s', '7 s', '8 s', '9 s', '1 s', 'J s', 'Q s', 'K s', 'A s', '2 h', '3 h', '4 h', '5 h', '6 h', '7 h', '8 h', '9 h', '1 h', 'J h', 'Q h', 'K h', 'A h', '2 d', '3 d', '4 d', '5 d', '6 d', '7 d', '8 d', '9 d', '1 d', 'J d', 'Q d', 'K d', 'A d', '2 c', '3 c', '4 c', '5 c', '6 c', '7 c', '8 c', '9 c', '1 c', 'J c', 'Q c', 'K c', 'A c'];
+
+                        var service = {
+
+                                    findWinner: findWinner,
+                                    timeOfIteration: timeOfIteration
+                        };
+
+                        return service;
+
+                        function findWinner(flop, turn, generateTurn, river, generateRiver, excludeCards, firstPlayer, secondPlayer) {
+
+                                    var players = [];
+                                    var numbersOfPlayers = 0;
+                                    var playerHasTwoCard = 2;
+
+                                    for (var l = 6; l < arguments.length; l++) {
+                                                numbersOfPlayers++;
+                                                players.push(arguments[l]);
+                                    }
+
+                                    var knownCardArray = flop;
+                                    var flopLength = 3;
+
+                                    if (generateTurn) {
+                                                knownCardArray = [...knownCardArray, ...turn];
+                                    }
+
+                                    if (generateRiver) {
+                                                knownCardArray = [...knownCardArray, ...river];
+                                    }
+
+                                    if (flop.length === 0) {
+                                                var everyTimeInitFlop = true;
+                                    }
+
+                                    if (turn.length === 0 && generateTurn) {
+                                                var everyTimeInitTurn = true;
+                                    }
+
+                                    if (river.length === 0 && generateRiver) {
+                                                var everyTimeInitRiver = true;
+                                    }
+
+                                    players = setGenerationCardForUsers(players);
+                                    var allPlayersCard = getAllPlayersCard(players);
+
+                                    var numberOfCardForGenerate = flopLength + generateTurn + generateRiver + numbersOfPlayers * playerHasTwoCard;
+
+                                    knownCardArray = [...knownCardArray, ...allPlayersCard];
+
+                                    for (var i = 0; i < timeOfIteration; i++) {
+
+                                                var randomCards = cardGeneratorService.getRandomCard(deckPoker52, knownCardArray, numberOfCardForGenerate, excludeCards);
+
+                                                flop = creatingFlop(flop, randomCards, everyTimeInitFlop);
+                                                turn = creatingTurn(turn, randomCards, everyTimeInitTurn);
+                                                river = creatingRiver(river, randomCards, everyTimeInitRiver);
+
+                                                var cardOnBoard = [...flop, ...turn, ...river];
+
+                                                players = creatingPlayersCard(players, cardOnBoard, randomCards);
+                                                players = setCombinationHierarhy(players);
+
+                                                var allPlayersCombinationRank = getAllPlayersCombinationRank(players);
+
+                                                var playersWithSameRank = getWinners(allPlayersCombinationRank);
+                                                var playersWin = playersWithSameRank.countSameValue;
+
+                                                if (playersWin.length > 1) {
+
+                                                            var playersCardWeight = getWeightCard(players, playersWin);
+
+                                                            var highestCard = findHighestCard(...playersCardWeight);
+
+                                                            var playerWhoWin = getWinners(highestCard).countSameValue;
+
+                                                            var indexesOfWinner = getPlayerIndexWhoWin(playerWhoWin, playersWin);
+
+                                                            if (indexesOfWinner.length == 1) {
+                                                                        setWin(players, indexesOfWinner);
+                                                            }
+
+                                                            if (indexesOfWinner.length > 1) {
+                                                                        setTie(players, indexesOfWinner);
+                                                            }
+                                                }
+
+                                                if (playersWin.length == 1) {
+                                                            setWin(players, playersWin);
+                                                }
+                                    }
+
+                                    return players;
+                        }
+
+                        function setGenerationCardForUsers(players) {
+
+                                    for (var i = 0; i < players.length; i++) {
+
+                                                if (players[i].getCard().length == 0) {
+                                                            players[i].setGeneratePlayersCard();
+                                                }
+                                    }
+
+                                    return players;
+                        }
+
+                        function getPlayerIndexWhoWin(arrOfWinner, playersWithSameRank) {
+                                    var arrOfIndexPlayers = [];
+                                    for (var i = 0; i < arrOfWinner.length; i++) {
+                                                var indexOfWinner = arrOfWinner[i];
+                                                arrOfIndexPlayers.push(playersWithSameRank[indexOfWinner]);
+                                    }
+                                    return arrOfIndexPlayers;
+                        }
+
+                        function setTie(players, playersWhoWin) {
+
+                                    for (var i = 0; i < playersWhoWin.length; i++) {
+
+                                                var playerIndex = playersWhoWin[i];
+                                                players[playerIndex].setTie();
+                                    }
+
+                                    return players;
+                        }
+
+                        function setWin(players, playersWhoWin) {
+
+                                    for (var i = 0; i < playersWhoWin.length; i++) {
+
+                                                var playerIndex = playersWhoWin[i];
+                                                players[playerIndex].setWin();
+                                    }
+
+                                    return players;
+                        }
+
+                        function getAllPlayersCombinationRank(players) {
+
+                                    var allPlayersCombinationRank = [];
+
+                                    for (var i = 0; i < players.length; i++) {
+                                                var tempPlayerCombinationRank = players[i].getHierarchicCardCombination().rankOfCombination;
+                                                allPlayersCombinationRank.push(tempPlayerCombinationRank);
+                                    }
+
+                                    return allPlayersCombinationRank;
+                        }
+
+                        function getWeightCard(players, indexesOfTieRank) {
+
+                                    var arrWeightOfCards = [];
+
+                                    for (var i = 0; i < indexesOfTieRank.length; i++) {
+                                                var indexOfPlayer = indexesOfTieRank[i];
+                                                arrWeightOfCards.push(players[indexOfPlayer].getHierarchicCardCombination().weight);
+                                    }
+
+                                    return arrWeightOfCards;
+                        }
+
+                        function getAllPlayersCard(players) {
+
+                                    var allPlayersCard = [];
+
+                                    for (var i = 0; i < players.length; i++) {
+                                                var tempPlayerCard = players[i].getCard();
+                                                allPlayersCard = [...allPlayersCard, ...tempPlayerCard];
+                                    }
+
+                                    return allPlayersCard;
+                        }
+
+                        function creatingFlop(flop, randomCards, generateFlop) {
+
+                                    if (generateFlop) {
+                                                flop = randomCards.splice(-3, 3);
+                                    }
+                                    return flop;
+                        }
+
+                        function creatingTurn(turn, randomCards, generateTurn) {
+
+                                    if (generateTurn) {
+                                                turn = randomCards.splice(-1, 3);
+                                    }
+                                    return turn;
+                        }
+
+                        function creatingRiver(river, randomCards, generateRiver) {
+
+                                    if (generateRiver) {
+                                                river = randomCards.splice(-1, 3);
+                                    }
+                                    return river;
+                        }
+
+                        function creatingPlayersCard(players, cardOnBoard, randomCards) {
+
+                                    for (var i = 0; i < players.length; i++) {
+
+                                                var generateCardForUser = players[i].getGeneratePlayersCard();
+
+                                                if (generateCardForUser) {
+                                                            players[i].setCard(randomCards.splice(-2, 2));
+                                                }
+
+                                                var getOwnPlayerCards = players[i].getCard();
+                                                players[i].setPlayCombination([...cardOnBoard, ...getOwnPlayerCards]);
+                                    }
+
+                                    return players;
+                        }
+
+                        function setCombinationHierarhy(players) {
+
+                                    for (var i = 0; i < players.length; i++) {
+
+                                                var playerCombination = players[i].getPlayCombination();
+                                                var cardRankCombination = findCombinationService.findCombination(playerCombination);
+                                                players[i].setHierarchicCardCombination(cardRankCombination);
+                                    }
+
+                                    return players;
+                        }
+
+                        function findHighestCard() {
+
+                                    var whoWin = [];
+                                    var skipPlayer = [];
+                                    var tempMax;
+                                    var tempIndexOfMax;
+
+                                    for (var k = 0; k < arguments.length; k++) {
+                                                whoWin[k] = 1;
+                                                skipPlayer[k] = 0;
+                                    }
+
+                                    for (var i = 0; i < arguments[0].length; i++) {
+
+                                                for (var n = 0; n < skipPlayer.length; n++) {
+                                                            if (skipPlayer[n] !== 1) {
+                                                                        tempMax = arguments[n][i];
+                                                                        tempIndexOfMax = n;
+                                                                        break;
+                                                            }
+                                                }
+
+                                                for (var j = 0; j < arguments.length; j++) {
+
+                                                            if (skipPlayer[j] == 1) {
+                                                                        continue;
+                                                            }
+
+                                                            if (arguments[j][i] > tempMax) {
+
+                                                                        for (var m = 0; m < j; m++) {
+                                                                                    whoWin[m] = 0;
+                                                                                    skipPlayer[m] = 1;
+                                                                        }
+
+                                                                        tempMax = arguments[j][i];
+                                                                        tempIndexOfMax = j;
+                                                                        continue;
+                                                            }
+
+                                                            if (arguments[j][i] < tempMax) {
+
+                                                                        whoWin[j] = 0;
+                                                                        skipPlayer[j] = 1;
+                                                            }
+                                                }
+                                    }
+
+                                    return whoWin;
+                        }
+
+                        function getWinners(arr) {
+                                    var maxValue = arr[0];
+                                    var countSameValue = [];
+
+                                    for (var i = 0; i < arr.length; i++) {
+
+                                                if (maxValue < arr[i]) {
+                                                            maxValue = arr[i];
+                                                            countSameValue = [];
+                                                }
+
+                                                if (maxValue == arr[i]) {
+                                                            countSameValue.push(i);
+                                                }
+                                    }
+
+                                    return {
+                                                maxValue: maxValue,
+                                                countSameValue: countSameValue
+                                    };
+                        }
+            }
+};
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports) {
+
+
+
+module.exports = function (ngModule) {
+
+    ngModule.factory('findCombinationService', findCombinationService);
+
+    findCombinationService.$inject = ['allCombinationsService'];
+
+    function findCombinationService(allCombinationsService) {
+
+        var service = {
+
+            findCombination: findCombination
+        };
+
+        return service;
+
+        function findCombination(tempCards) {
+
+            if (allCombinationsService.isRoyalFlush(tempCards)) {
+                return {
+                    rankOfCombination: 10,
+                    weight: [10, 10, 10, 10, 10]
+                };
+            }
+
+            var isStraightFlushCombination = allCombinationsService.isStraightFlush(tempCards);
+            if (isStraightFlushCombination.isStraight) {
+                return {
+                    rankOfCombination: 9,
+                    weight: isStraightFlushCombination.straightCombination
+                };
+            }
+
+            var isQuadsCombination = allCombinationsService.isQuads(tempCards);
+            if (isQuadsCombination.isQuads) {
+                return {
+                    rankOfCombination: 8,
+                    weight: isQuadsCombination.rankOfQuads
+                };
+            }
+
+            var isFullHouseCombination = allCombinationsService.isFullHouse(tempCards);
+            if (isFullHouseCombination.isFullHouse) {
+                return {
+                    rankOfCombination: 7,
+                    weight: isFullHouseCombination.cardRunk
+                };
+            }
+
+            var isFlushCombination = allCombinationsService.isFlush(tempCards);
+            if (isFlushCombination.isFlush) {
+                return {
+                    rankOfCombination: 6,
+                    weight: isFlushCombination.cardRank
+                };
+            }
+
+            var isStraightCombination = allCombinationsService.isStraight(tempCards);
+            if (isStraightCombination.isStraight) {
+                return {
+                    rankOfCombination: 5,
+                    weight: isStraightCombination.straightCombination
+                };
+            }
+
+            var isThreeOfAKindCombination = allCombinationsService.threeOfAKind(tempCards);
+            if (isThreeOfAKindCombination.isThreeOfAKind) {
+                return {
+                    rankOfCombination: 4,
+                    weight: isThreeOfAKindCombination.cardRankArr
+                };
+            }
+
+            var isTwoPairsCombination = allCombinationsService.isTwoPairs(tempCards);
+            if (isTwoPairsCombination.isTwoPairs) {
+                return {
+                    rankOfCombination: 3,
+                    weight: isTwoPairsCombination.cardRank
+                };
+            }
+
+            var isOnePairCombination = allCombinationsService.isOnePair(tempCards);
+            if (isOnePairCombination.isOnePair) {
+                return {
+                    rankOfCombination: 2,
+                    weight: isOnePairCombination.cardRank
+                };
+            }
+
+            var rankOfCards = allCombinationsService.getRankOfHighCard(tempCards);
+
+            return {
+                rankOfCombination: 1,
+                weight: rankOfCards
+            };
+        }
+    }
+};
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports) {
+
+
+
+module.exports = function (ngModule) {
+
+    ngModule.factory('allCombinationsService', allCombinationsService);
+
+    function allCombinationsService() {
+
+        var service = {
+
+            isRoyalFlush: isRoyalFlush,
+            isStraightFlush: isStraightFlush,
+            isQuads: isQuads,
+            isFullHouse: isFullHouse,
+            isFlush: isFlush,
+            isStraight: isStraight,
+            threeOfAKind: threeOfAKind,
+            isTwoPairs: isTwoPairs,
+            isOnePair: isOnePair,
+            getRankOfHighCard: getRankOfHighCard
+        };
+
+        return service;
+
+        function isRoyalFlush(arrOfCards) {
+
+            var isSuitBiggerThenFive = getSuitBiggerThenFive(arrOfCards);
+            var suitCard = isSuitBiggerThenFive.suit;
+
+            if (!(isSuitBiggerThenFive.count >= 5)) {
+                return false;
+            }
+
+            var filteredArrBySuit = arrOfCards.filter(item => item.slice(-1) === suitCard);
+
+            var arrOfIndexes = convertCardToRank(filteredArrBySuit);
+            var arrOfIndexesSorted = arrOfIndexes.sort(sortNumber);
+            var makeString = arrOfIndexesSorted.join(',');
+
+            return makeString.indexOf('8,9,10,11,12') >= 0;
+        }
+
+        function getSuitBiggerThenFive(arrOfCards) {
+
+            var countDiamonds = 0;
+            var countHearts = 0;
+            var countSpades = 0;
+            var countClubs = 0;
+
+            for (var i = 0; i < arrOfCards.length; i++) {
+
+                if (arrOfCards[i].slice(-1) == 'd') {
+                    countDiamonds++;
+                    continue;
+                }
+                if (arrOfCards[i].slice(-1) == 'h') {
+                    countHearts++;
+                    continue;
+                }
+                if (arrOfCards[i].slice(-1) == 's') {
+                    countSpades++;
+                    continue;
+                }
+                if (arrOfCards[i].slice(-1) == 'c') {
+                    countClubs++;
+                }
+            }
+
+            var arrOfSuits = {
+                'd': countDiamonds,
+                'h': countHearts,
+                's': countSpades,
+                'c': countClubs
+            };
+
+            var maxCountSuit = 0;
+            var suit = '';
+
+            for (var key in arrOfSuits) {
+                if (arrOfSuits[key] > maxCountSuit) {
+                    maxCountSuit = arrOfSuits[key];
+                    suit = key;
+                }
+            }
+
+            var suitBiggerThenFive = {
+                suit: '',
+                count: 0
+            };
+
+            if (maxCountSuit >= 5) {
+                suitBiggerThenFive.suit = suit;
+                suitBiggerThenFive.count = maxCountSuit;
+            }
+
+            return suitBiggerThenFive;
+        }
+
+        function isStraightFlush(arrOfCards) {
+
+            var isSuitBiggerThenFive = getSuitBiggerThenFive(arrOfCards);
+            var suitCard = isSuitBiggerThenFive.suit;
+
+            if (!(isSuitBiggerThenFive.count >= 5)) {
+                return {
+                    isStraight: false,
+                    straightCombination: []
+                };
+            }
+
+            var filteredArrBySuit = arrOfCards.filter(item => item.slice(-1) === suitCard);
+            return findStraightSequence(filteredArrBySuit, false);
+        }
+
+        function isQuads(arrOfCards) {
+
+            var quadsCard = getArrOfSameRankCard(arrOfCards, 4);
+
+            if (quadsCard.length !== 4) {
+                return {
+                    isQuads: false,
+                    rankOfQuads: []
+                };
+            }
+
+            var filteredCards = filterPlayersCard(arrOfCards, quadsCard);
+            var kickers = getBestCardSequence(filteredCards, 1);
+            var convertedTripleCardToRank = convertCardToRank(quadsCard);
+            var cardRankArr = [...convertedTripleCardToRank, ...kickers];
+
+            return {
+                isQuads: true,
+                rankOfQuads: cardRankArr
+            };
+        }
+
+        function convertCardToRank(arrOfCards) {
+
+            var templateStraightFlush = '234567891JQKA';
+            var cardRunkArr = [];
+
+            for (var i = 0; i < arrOfCards.length; i++) {
+                var getCardRank = arrOfCards[i].slice(0, 1);
+                var cardIndex = templateStraightFlush.indexOf(getCardRank);
+
+                cardRunkArr.push(cardIndex);
+            }
+
+            return cardRunkArr;
+        }
+
+        function getArrOfSameRankCard(arrOfCards, numberOfSameRank) {
+
+            var templateStraightFlush = '234567891JQKA';
+            var arrOfSameRankCard;
+            for (var i = 0; i < templateStraightFlush.length; i++) {
+                arrOfSameRankCard = arrOfCards.filter(item => item.slice(0, 1) === templateStraightFlush[i]);
+                if (arrOfSameRankCard.length == numberOfSameRank) {
+                    return arrOfSameRankCard;
+                }
+            }
+            return [];
+        }
+
+        function isFullHouse(arrOfCards) {
+
+            var tripleCard = getArrOfSameRankCard(arrOfCards, 3);
+
+            if (tripleCard.length !== 3) {
+                return {
+                    isFullHouse: false,
+                    cardRunk: []
+                };
+            }
+
+            var arrWithoutTripleCard = arrOfCards.filter(item => item.slice(0, 1) !== tripleCard[0].slice(0, 1));
+
+            var doubleCard = getArrOfSameRankCard(arrWithoutTripleCard, 2);
+
+            if (doubleCard.length !== 2) {
+                return {
+                    isFullHouse: false,
+                    cardRunk: []
+                };
+            }
+
+            var fullHouse = [...tripleCard, ...doubleCard];
+            var cardRunk = convertCardToRank(fullHouse);
+
+            return {
+                isFullHouse: true,
+                cardRunk: cardRunk
+            };
+        }
+
+        function isFlush(arrOfCards) {
+            var isSuitBiggerThenFive = getSuitBiggerThenFive(arrOfCards);
+            var suit = isSuitBiggerThenFive.suit;
+
+            if (isSuitBiggerThenFive.count >= 5) {
+
+                var arrCardSameSuit = arrOfCards.filter(item => item.slice(-1) == suit);
+                var cardRankArr = getBestCardSequence(arrCardSameSuit, 5);
+
+                return {
+                    isFlush: true,
+                    cardRank: cardRankArr
+                };
+            }
+
+            return {
+                isFlush: false,
+                cardRank: []
+            };
+        }
+
+        function getArrWithoutSameRankCard(arrOfCards) {
+            var tempArr = arrOfCards.slice();
+
+            var arrOfDubbleCard = getArrOfSameRankCard(tempArr, 2);
+
+            while (arrOfDubbleCard.length > 0) {
+                var indexOfSameCard = tempArr.indexOf(arrOfDubbleCard[0]);
+                tempArr.splice(indexOfSameCard, 1);
+                arrOfDubbleCard = getArrOfSameRankCard(tempArr, 2);
+            }
+            return tempArr;
+        }
+
+        function isStraight(arrOfCards) {
+
+            var arrCardWithoutSameRank = getArrWithoutSameRankCard(arrOfCards);
+            return findStraightSequence(arrCardWithoutSameRank, true);
+        }
+
+        function sortNumber(a, b) {
+            return a - b;
+        }
+
+        function findStraightSequence(arrOfCards, useInStraight) {
+
+            var arrOfIndexes = convertCardToRank(arrOfCards);
+            var arrOfIndexesSorted = arrOfIndexes.sort(sortNumber);
+            var makeString = arrOfIndexesSorted.join(',');
+
+            if (makeString.indexOf('0,1,2,3') >= 0 && makeString.indexOf('12') >= 0) {
+                return {
+                    isStraight: true,
+                    straightCombination: [1, 1, 1, 1, 1]
+                };
+            }
+
+            if (makeString.indexOf('0,1,2,3,4') >= 0) {
+                return {
+                    isStraight: true,
+                    straightCombination: [2, 2, 2, 2, 2]
+                };
+            }
+
+            if (makeString.indexOf('1,2,3,4,5') >= 0) {
+                return {
+                    isStraight: true,
+                    straightCombination: [3, 3, 3, 3, 3]
+                };
+            }
+
+            if (makeString.indexOf('2,3,4,5,6') >= 0) {
+                return {
+                    isStraight: true,
+                    straightCombination: [4, 4, 4, 4, 4]
+                };
+            }
+
+            if (makeString.indexOf('3,4,5,6,7') >= 0) {
+                return {
+                    isStraight: true,
+                    straightCombination: [5, 5, 5, 5, 5]
+                };
+            }
+
+            if (makeString.indexOf('4,5,6,7,8') >= 0) {
+                return {
+                    isStraight: true,
+                    straightCombination: [6, 6, 6, 6, 6]
+                };
+            }
+
+            if (makeString.indexOf('5,6,7,8,9') >= 0) {
+                return {
+                    isStraight: true,
+                    straightCombination: [7, 7, 7, 7, 7]
+                };
+            }
+
+            if (makeString.indexOf('6,7,8,9,10') >= 0) {
+                return {
+                    isStraight: true,
+                    straightCombination: [8, 8, 8, 8, 8]
+                };
+            }
+
+            if (makeString.indexOf('7,8,9,10,11') >= 0) {
+                return {
+                    isStraight: true,
+                    straightCombination: [9, 9, 9, 9, 9]
+                };
+            }
+
+            if (makeString.indexOf('8,9,10,11,12') >= 0 && useInStraight) {
+                return {
+                    isStraight: true,
+                    straightCombination: [10, 10, 10, 10, 10]
+                };
+            }
+
+            return {
+                isStraight: false,
+                straightCombination: []
+            };
+        }
+
+        function threeOfAKind(arrOfCards) {
+
+            var tripleCard = getArrOfSameRankCard(arrOfCards, 3);
+            if (tripleCard.length == 3) {
+
+                var filteredCards = filterPlayersCard(arrOfCards, tripleCard);
+                var kickers = getBestCardSequence(filteredCards, 2);
+                var convertedTripleCardToRank = convertCardToRank(tripleCard);
+                var cardRankArr = [...convertedTripleCardToRank, ...kickers];
+
+                return {
+                    isThreeOfAKind: true,
+                    cardRankArr: cardRankArr
+                };
+            }
+
+            return {
+                isThreeOfAKind: false,
+                cardRankArr: []
+            };
+        }
+
+        function filterPlayersCard(arrOfCards, cardsForFilter) {
+            var filteredCards = arrOfCards.slice();
+            for (var i = 0; i < cardsForFilter.length; i++) {
+                filteredCards = filteredCards.filter(item => item !== cardsForFilter[i]);
+            }
+            return filteredCards;
+        }
+
+        function isTwoPairs(arrOfCards) {
+
+            var separatedArr = separateByPairs(arrOfCards);
+
+            if (separatedArr.pairs.length <= 1) {
+                return {
+                    isTwoPairs: false,
+                    cardRank: []
+                };
+            }
+
+            var arrOfPair = separatedArr.pairs;
+            var arrOfPairRanked = convertPairsToRank(arrOfPair);
+            var sortedArrOfPairs = arrOfPairRanked.sort(sortPairByDecrease);
+
+            var arrWithoutPair = separatedArr.residue;
+
+            var convertedFirstPair = sortedArrOfPairs[0];
+            var convertedSecondPair = sortedArrOfPairs[1];
+            var convertedKicker = getBestCardSequence(arrWithoutPair, 1);
+
+            var rankOfCards = [...convertedFirstPair, ...convertedSecondPair, ...convertedKicker];
+
+            return {
+                isTwoPairs: true,
+                cardRank: rankOfCards
+            };
+        }
+
+        function convertPairsToRank(arrOfPairs) {
+
+            var arrOfPairsThatRanked = [];
+
+            for (var i = 0; i < arrOfPairs.length; i++) {
+                var tempArr = convertCardToRank(arrOfPairs[i]);
+                arrOfPairsThatRanked.push(tempArr);
+            }
+            return arrOfPairsThatRanked;
+        }
+
+        function sortPairByDecrease(a, b) {
+            return b[0] - a[0];
+        }
+
+        function separateByPairs(arrOfCards) {
+            var arrOfPair = [];
+            var twoCardInPair = 2;
+            var iterations = arrOfCards.length / twoCardInPair;
+            iterations = Math.floor(iterations);
+            var arrWithoutPair = arrOfCards.slice();
+
+            for (var i = 0; i <= iterations; i++) {
+                var tempPair = getArrOfSameRankCard(arrWithoutPair, twoCardInPair);
+
+                if (tempPair.length == 0) {
+                    break;
+                }
+
+                arrWithoutPair = arrWithoutPair.filter(item => item.slice(0, 1) !== tempPair[0].slice(0, 1));
+                arrOfPair.push(tempPair);
+            }
+
+            return {
+                pairs: arrOfPair,
+                residue: arrWithoutPair
+            };
+        }
+
+        function isOnePair(arrOfCards) {
+
+            var firstPair = getArrOfSameRankCard(arrOfCards, 2);
+
+            if (firstPair.length !== 2) {
+                return {
+                    isOnePair: false,
+                    cardRank: []
+                };
+            }
+
+            var arrWithoutFirstPair = arrOfCards.filter(item => item.slice(0, 1) !== firstPair[0].slice(0, 1));
+
+            var kicker = getBestCardSequence(arrWithoutFirstPair, 3);
+            var convertedFirstPair = convertCardToRank(firstPair);
+            var rankOfCards = [...convertedFirstPair, ...kicker];
+
+            return {
+                isOnePair: true,
+                cardRank: rankOfCards
+            };
+        }
+
+        function sortNumberByIncrease(a, b) {
+            return b - a;
+        }
+
+        function getBestCardSequence(tempCards, numberOfGetCards) {
+
+            var convertedArr = convertCardToRank(tempCards);
+            convertedArr.sort(sortNumberByIncrease);
+
+            return convertedArr.slice(0, numberOfGetCards);
+        }
+
+        function getRankOfHighCard(tempCards) {
+            var rankOfHighcard = getBestCardSequence(tempCards, 5);
+            return rankOfHighcard;
         }
     }
 };
